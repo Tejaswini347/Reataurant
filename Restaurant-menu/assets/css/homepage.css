@@ -1,0 +1,48 @@
+.container-layout {
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 0 30px;
+  }
+
+  .logo-block .navbar-brand{
+    font-size: 34px;
+    font-family: 'Kalam', cursive;
+    color: #c47272;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+  
+  .logo-block .navbar-brand img{
+  height: 38px;
+  width: 38px;
+}
+
+  .navbar-main {
+    padding: 20px 0;
+    background: #fff;
+    display: flex;
+  }
+  
+  .main-navigation {
+    margin: 0;
+    padding: 0;
+    flex-direction: row;
+  }
+  
+  .main-navigation li.nav-item {
+    float: left;
+  }
+  
+  .main-navigation li a {
+    font-size: 20px;
+    padding: 30px 30px;
+    font-weight: 500;
+  }
+  
+  .main-navigation li a:hover,
+  .main-navigation li a.selected,
+  .main-navigation li a:focus {
+    color: #ce1488;
+  }
+  
